@@ -57,7 +57,7 @@ mkdir build
 cd build
 cmake ..
 make -j16 all
-cd lib
+cd lib #lib refers to the FPN/lib
 make 
 ```
 ### train & test
